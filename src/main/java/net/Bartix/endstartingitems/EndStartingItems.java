@@ -1,5 +1,6 @@
 package net.Bartix.endstartingitems;
 
+import net.Bartix.endstartingitems.Item.ModCreativeModeTabs;
 import net.Bartix.endstartingitems.Item.ModItems;
 import net.Bartix.endstartingitems.block.ModBlocks;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -37,6 +38,8 @@ public class EndStartingItems {
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
 
+
+        ModCreativeModeTabs.register(modEventBus);
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
         // Register the item to a creative tab
