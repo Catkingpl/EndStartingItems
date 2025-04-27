@@ -60,6 +60,7 @@ public class EndStartingItems {
         }
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.ENDER_PEAR_BLOCK);
+            event.accept(ModBlocks.ENTER_PLANKS);
         }
     }
 

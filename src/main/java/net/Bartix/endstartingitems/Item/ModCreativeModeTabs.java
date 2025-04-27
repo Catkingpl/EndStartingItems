@@ -22,6 +22,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ENDER_SHARD);
                         output.accept(ModItems.ENDER_STICK);
                         output.accept(ModBlocks.ENDER_PEAR_BLOCK);
+                        output.accept(ModBlocks.ENTER_PLANKS);
                     }).build());
 
     public static void register(IEventBus eventBus) {

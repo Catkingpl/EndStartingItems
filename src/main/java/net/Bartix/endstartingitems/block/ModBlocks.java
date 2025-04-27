@@ -21,7 +21,10 @@ public class ModBlocks {
 
     public static final DeferredBlock<Block> ENDER_PEAR_BLOCK = registerBlock("ender_pear_block",
         () -> new Block(BlockBehaviour.Properties.of()
-                .strength(4f).sound(SoundType.AMETHYST)));
+                .strength(4f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+    public static final DeferredBlock<Block> ENTER_PLANKS = registerBlock("ender_planks",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.WOOD)));
 
 
 

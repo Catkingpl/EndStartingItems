@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:chorus_fruit"
+    }
+  },
+  "result": {
+    "id": "endstartingitems:ender_stick",
+    "count": 1
+  }
+}
