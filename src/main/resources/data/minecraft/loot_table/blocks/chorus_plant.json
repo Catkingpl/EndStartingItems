@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "endstartingitems:ender_stick",
+          "name": "endbase:ender_stick",
           "conditions": [
             {
               "condition": "minecraft:random_chance",

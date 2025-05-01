@@ -1,0 +1,9 @@
+{
+  "itemGroup.endbase": "Example Mod Tab",
+  "block.endbase.ender_pear_block": "Block of Ender Pear",
+  "item.endbase.ender_stick": "Ender Stick",
+  "item.endbase.ender_shard": "Ender Shard",
+  "creativetab.endbase.enditems": "End Base",
+  "block.endbase.ender_planks": "Ender Planks",
+  "item.endbase.cooked_chorus_fruit": "Cooked Chorus"
+}

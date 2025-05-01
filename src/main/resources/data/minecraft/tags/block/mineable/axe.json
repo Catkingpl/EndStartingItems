@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "endstartingitems:ender_planks"
+    "endbase:ender_planks"
 
   ]
 }

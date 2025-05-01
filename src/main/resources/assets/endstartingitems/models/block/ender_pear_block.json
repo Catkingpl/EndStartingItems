@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "endstartingitems:block/ender_pear_block"
-  }
-}
